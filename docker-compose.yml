@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3001:3000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - API_SECRET_KEY=${API_SECRET_KEY}
