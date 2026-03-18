@@ -150,7 +150,7 @@ Evaluates patient record quality across four dimensions: completeness, accuracy,
 
 - **Strong clinical reasoning**: Performs well on medical/scientific tasks, making it a natural fit for medication reconciliation
 - **Reliable structured output**: System instructions enforce JSON-only responses with explicit schemas, minimizing parsing failures
-- **Cost-effective**: Gemini 2.5 Flash provides fast inference at low cost, which is important for a prototype with many test interactions. Additionally, we chose this model because our implementation includes robust logic that ensures high accuracy, so we do not require a more powerful or expensive AI model.
+- **Cost-effective**: Gemini 2.5 Flash provides fast inference at low cost, which is ideal for a prototype with many test interactions. We also designed a hybrid approach (deterministic heuristics + validation + confidence calibration) so we don’t need an extremely large, expensive model to get accurate, consistent results.
 - **Modern SDK**: The `@google/genai` package offers a clean, well-documented API
 
 ### Prompt Engineering Approach
