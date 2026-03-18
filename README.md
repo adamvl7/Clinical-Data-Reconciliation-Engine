@@ -4,7 +4,7 @@ A full-stack web application that uses AI to reconcile conflicting clinical data
 
 ## Live Demo
 
-Deployed on Vercel: *(add URL after deployment)*
+Deployed on Vercel: https://clinical-data-reconciliation-engine-phi.vercel.app/
 
 ## Quick Start
 
